@@ -1,4 +1,4 @@
-# React - Material UI - Vite.js Template
+# React + Vite + Material UI Template
 <img src="public/react.svg" alt="react icon" width="100" height="100"> <img src="public/vite.svg" alt="vite icon" width="100" height="100"> <img src="public/mui.svg" alt="mui icon" width="100" height="100">
 ## How to use
 
