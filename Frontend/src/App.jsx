@@ -1,18 +1,24 @@
-import * as React from 'react';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-
+import * as React from "react";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import About from "./components/About";
+import Create from "./components/Create";
+import Navbar from "./components/Navbar";
 
 export default function App() {
+  const myWidth = 220;
   return (
-    <Container maxWidth="sm">
-      <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
-          React + Vite + MUI Template
-        </Typography>
-
-      </Box>
-    </Container>
+    <div className="App">
+      <Navbar
+        drawerWidth={myWidth}
+        content={
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/create" element={<Create />} />
+          </Routes>
+        }
+      />
+    </div>
   );
 }
