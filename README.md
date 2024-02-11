@@ -1,5 +1,16 @@
-# React + Vite + Material UI Template
-<img src="public/react.svg" alt="react icon" width="100" height="100"> <img src="public/vite.svg" alt="vite icon" width="100" height="100"> <img src="public/mui.svg" alt="mui icon" width="100" height="100">
+# FullStack React Django Vite MUI Template
+
+This is a template for a fullstack project using React, Django, Vite, and Material-UI.
+React-router dom is also included for routing.
+
+- React: A JavaScript library for building user interfaces.
+- Django: A high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+- Vite: A build tool that aims to provide a faster and leaner development experience for modern web projects.
+- Material-UI: A popular React UI framework.
+- React-router-dom: A popular routing library for React.
+
+
+
 ## How to use
 
 Download the example [or clone the whole project]
