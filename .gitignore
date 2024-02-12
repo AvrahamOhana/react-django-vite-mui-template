@@ -1,5 +1,5 @@
 Backend/api/__pycache__/*.pyc
-
+Backend/api/migrations
 Frontend/node_modules
 
 # misc
