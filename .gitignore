@@ -1,5 +1,5 @@
 Backend/api/__pycache__/*.pyc
-*.py
+
 
 Frontend/node_modules
 Frontend/src
