@@ -1,7 +1,7 @@
 Backend/api/__pycache__/*.pyc
 Backend/api/migrations
 Frontend/node_modules
-
+Backend/db.sqlite3
 # misc
 Frontend/.DS_Store
 Frontend/dist
