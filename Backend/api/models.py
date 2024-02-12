@@ -12,3 +12,10 @@ class Project(models.Model):
     
     def __str__(self):
         return self.name
+    
+class Book(models.Model):
+    name = models.CharField(unique=True, max_length=100)
+    release_date = models.DateField()
+    
+    def __str__(self):
+        return self.name
