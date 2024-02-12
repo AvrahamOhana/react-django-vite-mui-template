@@ -2,6 +2,7 @@ Backend/api/__pycache__/*.pyc
 *.py
 
 Frontend/node_modules
+Frontend/src
 # misc
 Frontend/.DS_Store
 Frontend/dist
