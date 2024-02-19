@@ -16,7 +16,7 @@ export default function MySelectField(props) {
 
   return (
     <>
-    <FormControl variant="filled" sx={{ m: 1, minWidth: 120,width: {width} }} >
+    <FormControl variant="standard" sx={{ m: 1, minWidth: 120,width: {width} }} >
       <InputLabel id="demo-simple-select-filled-label">{label}</InputLabel>
       <Controller
         name={name}
@@ -37,7 +37,7 @@ export default function MySelectField(props) {
             </MenuItem>
             <MenuItem value={10}>Open</MenuItem>
             <MenuItem value={20}>In Progress</MenuItem>
-            <MenuItem value={30}>Done</MenuItem>
+            <MenuItem value={30}>Completed</MenuItem>
           </Select>
         )}
       />

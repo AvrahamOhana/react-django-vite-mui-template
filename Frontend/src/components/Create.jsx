@@ -16,7 +16,7 @@ const Create = () => {
         sx={{
           display: "flex",
           width: "100%",
-          marginBottom: "10px",
+          marginBottom: "40px",
          
         }}
       >
