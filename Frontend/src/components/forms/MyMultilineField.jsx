@@ -1,16 +1,31 @@
-import * as React from 'react';
-import TextField from '@mui/material/TextField';
+import * as React from "react";
+import TextField from "@mui/material/TextField";
+import { Controller } from "react-hook-form";
 
-export default function MyMultilineField() {
-  return (
+export default function MyMultilineField(props) {
+  const {label, width, placeholder, name, control} = props;
+
+  return(<>
+    <Controller
+      name={name}
+      control={control}
+      render={({
+        field: { onChange, value },
+        fieldState: { error },
+        formState,
+      }) => (
         <TextField
           id="standard-multiline-static"
-          label="Multiline"
+          sx={{ width: {width}}}
+          label={label}
           multiline
-          rows={4}
-          defaultValue="Default Value"
+          rows={1}
           variant="standard"
+          placeholder={placeholder}
+          
         />
-
-  );
+      )}
+    />
+  </>)
+  
 }

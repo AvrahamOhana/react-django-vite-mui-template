@@ -29,8 +29,11 @@ export default function Navbar(props) {
     };
 
     const myDrawer = (
-      <div><Toolbar />
-      <Box sx={{ overflow: "auto" }}>
+      <div>
+        
+        <Toolbar />
+      <Box sx={{ overflow: "auto", }}>
+      
         <List>
           <ListItem disablePadding>
             <ListItemButton component={Link} to="/" selected={"/" === path}>
@@ -64,6 +67,7 @@ export default function Navbar(props) {
     )
   return (
     <Box sx={{ display: "flex" }}>
+      
       <CssBaseline />
       <AppBar
         position="fixed"
@@ -117,8 +121,9 @@ export default function Navbar(props) {
       </Drawer>
 
 
-      <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+      <Box component="main" sx={{ flexGrow: 1, p: 3, }}>
         <Toolbar />
+        
         { content }
       </Box>
     </Box>
